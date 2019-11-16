@@ -9,8 +9,14 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+<script src="js/jquery.lettering-0.6.1.min.js"></script>
+<script src="js/jquery.textillate.js"></script>
+
 
 <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
@@ -68,7 +74,7 @@
 						<a href="">The Party</a>
 						<ul class="submenu">
 							<li>
-								<a href="">RPI (A) Constitution</a> 
+								<a href="">RPI (A) Constitution</a>
 							</li>
 							<li>
 								<a href="">Our Inspiration</a>
@@ -94,7 +100,7 @@
 										<a href="">National General Secretary</a>
 									</li>
 								</ul>
-							</li>							
+							</li>
 						</ul>
 					</li>
 					<li>
@@ -141,8 +147,7 @@
 	</div>
 		</div><!-- container -->
 	</div>
-	
-</nav>
+
 </div>
 <div id="secdiv">
 	<table>
@@ -151,9 +156,8 @@
 		<div class="img"><img src="eg.png" class="img_size"> </div>
 		</td>
 		<td>
-		<div><h1  class="rpi">RPI</h1></div>
-	
-	
+		<h1 class="rpi tlt">RPI</h1>
+
 	<p class="para">Ramdas Athawale (Born 25 December 1959) is an Indian politician from Maharashtra.
 	 He is the leader of the Republican Party of India (A).
 	 Currently, he is Minister of State for Social Justice and Empowerment in the Narendra Modi government,
@@ -168,7 +172,7 @@
 </td>
 	</tr>
 	</table>
-	
+
 </div>
 <div class="footer">
     <div class="container">
@@ -222,5 +226,25 @@
 <div class="copy">
 	<p>Copyright @ All rights reserved</p>
 </div>
+
+
+<script>
+ $(function(){
+    $('.tlt').textillate({
+		in : {
+			effect: 'bounce',
+            shuffle: true,
+            sync: false
+        },
+        out : {
+            effect: 'bounce',
+            shuffle: true,
+            sync: false
+        },
+
+        loop: true
+    });
+});
+</script>
 </body>
 </html>

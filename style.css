@@ -150,6 +150,10 @@ body{
 }
 .rpi{
 	font-weight:900;
+	list-style-type:none;
+	font-size:15em;
+	text-align:center;
+	color:#1161b3;
 }
 .donation{
 	color:#fff;
